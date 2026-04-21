@@ -116,41 +116,6 @@ Este proyecto fue diseñado y probado en PNetLab, utilizando:
 •	Cisco IOS L2 para switches de acceso
 •	Servidores Linux para DNS, DHCP, WEB, MAIL y NFS/RADIUS
 ________________________________________
-📁 Estructura sugerida del repositorio
-zylonet-network-infra/
-│
-├── README.md
-├── docs/
-│   ├── PROYECTO_FINAL.pdf
-│   ├── direccionamiento-ip.md
-│   ├── equipos.md
-│   └── cotizacion.md
-│
-├── configs/
-│   ├── santo-domingo/
-│   │   ├── R-CORE1.txt
-│   │   ├── R-SW1.txt
-│   │   ├── R-SW2.txt
-│   │   ├── SW-3.txt
-│   │   ├── SW-4.txt
-│   │   └── SW-5.txt
-│   ├── santiago/
-│   │   ├── R-14.txt
-│   │   ├── SW-6.txt
-│   │   └── SW-9.txt
-│   └── romana/
-│       ├── ROMANA.txt
-│       ├── SW-7.txt
-│       └── SW-8.txt
-│
-├── diagrams/
-│   ├── topologia-general.png
-│   └── arquitectura-red.png
-│
-└── scripts/
-    ├── seguridad.txt
-    └── scrip-zylonet.txt
-________________________________________
 🎯 Conclusión
 Este proyecto demuestra el diseño e implementación de una infraestructura de red segura, escalable y jerárquica para ZYLONET, integrando conectividad entre sedes, segmentación lógica, servicios de red, redundancia y controles de seguridad alineados con un entorno empresarial real.
 ________________________________________
