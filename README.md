@@ -13,28 +13,38 @@ La arquitectura implementa un modelo jerárquico de 3 capas (Núcleo → Distrib
 ________________________________________
 👥 Equipo de Trabajo — ZYLONET
 Nombre	Rol
+
 Anderlis Caraballo Frias  |	CEO e Ingeniera en redes
+
 Samantha Perez Fernandez  |	Encargada del área de marketing y especialista en seguridad en la nube
+
 Emely Carolina Carrasco Torres | Especialista en respuesta a incidentes
+
 Dairy Ibeth Rondon Constanza  |	Arquitecta de seguridad
+
 Alan Junior Morel Marte |	Ingeniero especializado en infraestructura y gestión de servidores
+
 Cristopher Naveo Aquino	| Especialista en seguridad de red
+
 Lissabeth Leonor Turbides Valdez	|  Administración en sistemas
+
 ________________________________________
 🏗️ Arquitectura de Red
 Modelo Jerárquico de 3 Capas
+                     
                      INTERNET / ISP
                            |
           -------------------------------------------
           |                    |                    |
        R-CORE1               R-14               ROMANA
-   (Santo Domingo)        (Santiago)         (La Romana)
-          |                    |                    |
-   ----------------        ---------            ---------
-   |              |        |       |            |       |
- R-SW1          R-SW2    SW-6    SW-9         SW-7    SW-8
-   |  \         /  |                       
- SW-3 SW-4   SW-5                     Hosts / PCs / Servicios
+       (Santo Domingo)        (Santiago)         (La Romana)
+          |                    |                    
+    ----------------        ---------            ---------
+    |              |        |       |            |       |
+    R-SW1          R-SW2    SW-6    SW-9         SW-7    SW-8
+     |  \         /  |                       
+    SW-3 SW-4   SW-5                     Hosts / PCs / Servicios
+
 Distribución por sede
 •	Santo Domingo: R-CORE1, R-SW1, R-SW2, SW-3, SW-4, SW-5
 •	Santiago: R-14, SW-6, SW-9, servidores DNS/WEB/DHCP, NFS/RADIUS y MAIL
